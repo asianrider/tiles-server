@@ -1,0 +1,16 @@
+{
+  "name": "tiles-server",
+  "version": "1.0.0",
+  "description": "Serve several mbtiles tiles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.12.1",
+    "express": "^4.18.2"
+  }
+}
